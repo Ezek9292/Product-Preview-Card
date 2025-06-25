@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(30, 38%, 92%);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.perfume_hide{
+    display: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.perfume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfume img{
+    width: 375px;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+
+span{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+h1{
+    font-family: "Fraunces", Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+article{
+    padding: 0 20px;
+    padding-bottom: 20px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+.bigprice{
+    color: hsl(158, 42%, 18%);
+    font-family: Fraunces;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-right: 20px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.smallprice{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color:hsl(158, 36%, 37%);
+    padding: 20px 70px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+button:hover{
+    background-color: hsl(158, 42%, 18%);
+}
+
+.fa-solid{
+    padding-right: 10px;
+}
+
+@media (screen) {
+    
+}
