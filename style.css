@@ -111,15 +111,13 @@ button:hover{
 
 @media (min-width:500px ) {
     .perfume_hide img{
-        display: block;
-        height: 500px;
-    }
-    .texts{
-        /* display: block; */
-        padding: 20px;
+        display: flex;
+        height: 400px;
+        width: auto;
     }
     .container{
-        min-width: 700px;
+        min-width: 100vh;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -129,7 +127,7 @@ button:hover{
         padding: 20px;
     }
     .cart{
-        padding-top: 20px;
+        padding: 0px;
     }
     }
     
