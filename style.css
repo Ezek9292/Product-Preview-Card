@@ -22,11 +22,11 @@ body{
     border-radius: 20px;
     margin-bottom: 20px;
 }
-.perfume_hide{
+.perfume_hide img{
+    width: 375px;
+    height: auto;
+    border-radius: 15px 0px 0 15px;
     display: none;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 .perfume{
@@ -109,6 +109,34 @@ button:hover{
     padding-right: 10px;
 }
 
-@media (screen) {
+@media (min-width:500px ) {
+    .perfume_hide img{
+        display: block;
+        height: 500px;
+    }
+    .texts{
+        /* display: block; */
+        padding: 20px;
+    }
+    .container{
+        min-width: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    h1{
+        padding: 20px;
+    }
+    .cart{
+        padding-top: 20px;
+    }
+    }
+    
+
+@media (min-width:500px ) {
+    .perfume img{
+        display: none;
+    }
     
 }
